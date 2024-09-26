@@ -45,25 +45,4 @@
         </div>
     </section>
 
-    <!-- Begin testimonial -->
-    <section class="pgl-teams">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h2>Missão</h2>
-                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-                    <h2>Visão</h2>
-                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-                    <h2>Valores</h2>
-                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudexercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <!-- End testimonial -->
 @endsection

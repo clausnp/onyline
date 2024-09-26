@@ -10,45 +10,6 @@
 
 
 
-    <!-- Begin About -->
-    <section class="pgl-offer pgl-bg-dark text-center">
-        <div class="container">
-            <h2>Onyline Imóveis</h2>
-            <span class="divider"></span>
-            <div class="row">
-                <div class="col-sm-4 animation">
-                    <div class="offer-item">
-                        <div class="offer-item-inner">
-                            <p><i class="icons icon-hand"></i></p>
-                            <h3>Característica 1</h3>
-                            <p>Texto 1.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 animation">
-                    <div class="offer-item">
-                        <div class="offer-item-inner">
-                            <p><i class="icons icon-home"></i></p>
-                            <h3>Característica 2</h3>
-                            <p>Texto 2.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 animation">
-                    <div class="offer-item">
-                        <div class="offer-item-inner">
-                            <p><i class="icons icon-chart"></i></p>
-                            <h3>Característica 3</h3>
-                            <p>Texto 3.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End About -->
-
-
 
     <!-- Begin Featured -->
     <section class="pgl-featured">
@@ -77,7 +38,7 @@
                                             </div>
                                             <div class="amenities clearfix">
                                                 <ul class="pull-left">
-                                                    <li><strong>Area:</strong> 450<sup>m2</sup></li>
+                                                    <li><strong>Area total:</strong> 450<sup>m2</sup></li>
                                                 </ul>
                                                 <ul class="pull-right">
                                                     <li><i class="icons icon-bedroom"></i> 3</li>
@@ -109,7 +70,7 @@
                                             </div>
                                             <div class="amenities clearfix">
                                                 <ul class="pull-left">
-                                                    <li><strong>Area:</strong> 450<sup>m2</sup></li>
+                                                    <li><strong>Area total:</strong> 450<sup>m2</sup></li>
                                                 </ul>
                                                 <ul class="pull-right">
                                                     <li><i class="icons icon-bedroom"></i> 3</li>
@@ -141,7 +102,7 @@
                                             </div>
                                             <div class="amenities clearfix">
                                                 <ul class="pull-left">
-                                                    <li><strong>Area:</strong> 450<sup>m2</sup></li>
+                                                    <li><strong>Area total:</strong> 450<sup>m2</sup></li>
                                                 </ul>
                                                 <ul class="pull-right">
                                                     <li><i class="icons icon-bedroom"></i> 3</li>
@@ -173,7 +134,7 @@
                                             </div>
                                             <div class="amenities clearfix">
                                                 <ul class="pull-left">
-                                                    <li><strong>Area:</strong> 450<sup>m2</sup></li>
+                                                    <li><strong>Area total:</strong> 450<sup>m2</sup></li>
                                                 </ul>
                                                 <ul class="pull-right">
                                                     <li><i class="icons icon-bedroom"></i> 3</li>
@@ -863,111 +824,6 @@
     </section>
     <!-- End Agents -->
 
-    <!-- Begin About -->
-    <section class="pgl-about pgl-bg-light">
-    <div class="container">
-            <div class="row">
-                <div class="col-md-4 animation about-item">
-                    <h2>Quem somos nós</h2>
-                    <p><img src="images/content/demo-1.jpg" alt="" class="img-responsive"></p>
-                    <p>Frase curta.</p>
-                    <a href="{{ route('sobre') }}" class="btn btn-lg btn-default">Saiba mais</a>
-                </div>
-                <div class="col-md-4 animation about-item">
-                    <h2>Perguntas frequentes</h2>
-                    <div class="panel-group" id="accordion">
-                        <div class="panel panel-default pgl-panel">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Pergunta 1</a> </h4>
-                            </div>
-                            <div id="collapseOne" class="panel-collapse collapse in">
-                                <div class="panel-body">
-                                    <p>Resposta.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default pgl-panel">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">Pergunta 2</a> </h4>
-                            </div>
-                            <div id="collapseTwo" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <p>Resposta.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default pgl-panel">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">Pergunta 3</a> </h4>
-                            </div>
-                            <div id="collapseThree" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div class="panel-body">
-                                        <p>Resposta.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default pgl-panel">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseFouth" class="collapsed">Pergunta 4</a> </h4>
-                            </div>
-                            <div id="collapseFouth" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div class="panel-body">
-                                        <p>Resposta.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default pgl-panel">
-                            <div class="panel-heading">
-                                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive" class="collapsed">Pergunta 5</a> </h4>
-                            </div>
-                            <div id="collapseFive" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    <div class="panel-body">
-                                        <p>Resposta.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 animation about-item">
-                    <h2>Clientes Felizes</h2>
-                    <div class="owl-carousel pgl-bg-dark pgl-testimonial" data-plugin-options='{"items": 1, "pagination": false, "autoHeight": true}'>
-                        <div class="col-md-12">
-                            <div class="testimonial-author">
-                                <div class="img-thumbnail-small img-circle">
-                                    <img src="images/agents/agent-1.jpg" class="img-circle" alt="Andrew MCCarthy">
-                                </div>
-                                <h4>Nome</h4>
-                                <p><strong>Comprador</strong></p>
-                            </div>
-                            <div class="divider-quote-sign"><span>“</span></div>
-                            <blockquote class="testimonial">
-                                <p>Depoimento.</p>
-                            </blockquote>
-                        </div>
-                        <div class="col-md-12">
-                            <div class="testimonial-author">
-                                <div class="img-thumbnail-small img-circle">
-                                    <img src="images/agents/agent-1.jpg" class="img-circle" alt="John Smith">
-                                </div>
-                                <h4>Nome</h4>
-                                <p><strong>Vendedor</strong></p>
-                            </div>
-                            <div class="divider-quote-sign"><span>“</span></div>
-                            <blockquote class="testimonial">
-                                <p>Depoimento.</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End About -->
+
 
 @endsection
