@@ -1,6 +1,12 @@
-.bread_sobre{
-    background:url("../images/bread/bread.jpg") center center;
+.pgl-copyrights p{
+    margin: 0;
 }
-.bread_contato{
-    background:url("../images/bread/bread.jpg") center center;
+.mb-50{
+    margin-bottom: 50px;
+}
+.bread_contato {
+    background: url("../images/bg-page-top.jpg") no-repeat #333 center center;
+}
+h2{
+    margin: 0 0 10px;
 }

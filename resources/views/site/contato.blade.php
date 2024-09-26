@@ -18,7 +18,7 @@
 @stop
 
 @section('bread')
-    @include('site._partials.bread', ['pagina'=> "Sobre",'imagem'=> "bread_sobre"])
+    @include('site._partials.bread', ['pagina'=> "Contato",'imagem'=> "bread_contato"])
 @endsection
 
 @section('head')
@@ -34,83 +34,61 @@
 
 @section('content')
 
-    <div class="container mt-3">
+    <!-- Begin content with sidebar -->
+    <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-                <h2 class="fw-bolder text-center">Formulário de contato</h2>
-                <form method="post" class="contact-form" action="{{ route('enviar_email') }}">
-                    @csrf
-                    <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+            <div class="col-md-12 content">
 
-                @if (count($errors) > 0)
-                        <div class="alert alert-danger mt-2">
-                            <strong>Opa!</strong> Tivemos alguns problemas com seu formulário.<br><br>
-                            <ul>
-                                @foreach ($errors->all() as $error)
-                                    <li>{{ $error }}</li>
-                                @endforeach
-                            </ul>
-                        </div>
-                    @endif
+                <div class="contact">
+                    <p>Entre em contato conosco através do formulário abaixo, iremos responder assim que possível.</p>
 
-                    <div class="row">
-                        <div class="col-md-12 mt-2">
-                            <input type="text" class="form-control" maxlength="50" placeholder="Nome *"
-                                   required="required" id="name" name="name">
+                    <form id="contact-form" name="form1" method="post" action="send_contact.php">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label for="name">Nome *</label>
+                                    <input type="text" name="name" id="name" class="form-control" data-msg-required="Digite seu nome." required>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="customer_mail">E-mail *</label>
+                                    <input type="email" name="customer_mail" id="customer_mail" class="form-control" data-msg-required="Digite seu e-mail." data-msg-email="Please enter a valid email address." required>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-12 mt-2">
-                            <input type="text" class="form-control" maxlength="70" placeholder="Assunto *"
-                                   required="required" id="subject" name="subject">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <label for="subject">Telefone *</label>
+                                    <input type="number" name="telefone" id="telefone" class="form-control" data-msg-required="Digite seu telefone." required>
+                                </div>
+                                <div class="col-sm-6">
+                                    <label for="website">Assunto</label>
+                                    <input type="text" name="assunto" id="assunto" class="form-control">
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-6 mt-2">
-                            <input type="email" class="form-control" maxlength="70" placeholder="E-mail *"
-                                   required="required" id="email" name="email">
+                        <div class="form-group">
+                            <label for="comments">Mensagem *</label>
+                            <textarea rows="9" name="comments" id="comments" class="form-control" data-msg-required="Digite sua mensagem." required></textarea>
                         </div>
-                        <div class="col-md-6 mt-2">
-                            <input type="text" class="form-control" maxlength="70" placeholder="Fone *"
-                                   required="required" id="phone" name="phone">
+                        <div class="form-group">
+                            <input type="submit" value="Enviar" class="btn btn-primary min-wide" data-loading-text="Enviando...">
                         </div>
+                    </form>
+                </div>
 
-                        <div class="col-md-12">
-                            <textarea class="form-control mt-2" rows="12" maxlength="1000" placeholder="Mensagem *"
-                                      required="required" id="message" name="message"></textarea>
-                        </div>
-
-                        <div id="captcha" class="mt-3"></div>
-
-                        <div class="col-md-12 mt-3">
-                            <button type="submit" class="btn btn-white"><span>Enviar Mensagem</span></button>
-                        </div>
-                    </div>
-                </form>
             </div>
-            <div class="col-sm-6">
-                <h4 class="mt-2">Informações</h4>
-                <ul style="list-style:none;" class="mt-3">
-                    <li style="margin-left:-30px;">
-                        <p>
-                            <i class="fa-solid fa-map-marker-alt text-center" style="padding-right:4px;"></i>
-                            <strong>Endereço:</strong>
-                            <a href="https://goo.gl/maps/colocarenderecoaqui" target="_blank"> Av. Fulano de Tal,
-                                100</a>
-                        </p>
-                    </li>
-                    <li style="margin-left:-30px;">
-                        <p><i class="fa-solid fa-phone text-center"></i> <strong>Telefone:</strong> <a
-                                    href="tel: 05432420000"> (54) 3242 0000</a></p>
-                    </li>
-                    <li style="margin-left:-30px;">
-                        <p><i class="fa-solid fa-envelope text-center" style="padding-right:4px;"></i>
-                            <strong>E-mail:</strong> <a href="mailto:contato@laravel.com">contato@laravel.com</a></p>
-                    </li>
-                </ul>
-                <hr>
 
-                <h4 class="mt-2">Horário de atendimento</h4>
-                <p><i class="fa-solid fa-clock text-center" style="padding-right:4px;"></i> Segunda à Sexta | 8:30 às
-                    18:30</p>
+        </div>
+
+        <div class="row mb-50">
+            <div class="col-md-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3496.9167331064496!2d-51.61208572371812!3d-28.781743173879473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951dc60fd49bfdb3%3A0xb21522ee7ccd77c3!2sAv.%20Pres.%20Vargas%2C%20424%20-%20Centro%2C%20Nova%20Prata%20-%20RS%2C%2095320-000!5e0!3m2!1spt-BR!2sbr!4v1727367459149!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
+
+    </div>
+    <!-- End content -->
 
 
     </div>

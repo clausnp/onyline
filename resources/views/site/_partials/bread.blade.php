@@ -1,11 +1,11 @@
-<!--Page Title-->
-<section class="page-title {{$imagem}}">
-    <div class="auto-container">
-        <h1>{{$pagina}}</h1>
-        <ul class="bread-crumb clearfix">
-            <li><a href="{{ route('inicial') }}">Inicial</a></li>
-            <li>{{$pagina}}</li>
-        </ul>
+
+<!-- Begin page top -->
+<section class="page-top {{$imagem}}">
+    <div class="container">
+        <div class="page-top-in">
+            <h2><span>{{$pagina}}</span></h2>
+        </div>
     </div>
 </section>
-<!--End Page Title-->
+<!-- End page top -->
+

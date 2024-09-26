@@ -1,19 +1,54 @@
-<div id="carousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        @foreach($sliders as $slider)
-            <div class="carousel-item {{ ($loop->index==0) ? 'active' : '' }}">
-                <img src="
-                    {{ asset("uploads/{$slider->imagem}") }}
-                " class="d-block w-100" alt="{{ $slider->titulo }}">
+    <!-- Begin Main Slide -->
+    <section class="main-slide">
+        <div id="owl-main-slide" class="owl-carousel pgl-main-slide" data-plugin-options='{"autoPlay": true}'>
+            <div class="item" id="item1"><img src="images/slides/slider1.jpg" alt="Photo" class="img-responsive">
+                <div class="item-caption">
+                    <div class="container">
+                        <div class="property-info">
+									<span class="property-thumb-info-label">
+										<span class="label price">$358,000</span>
+										<span class="label"><a href="property-detail.html" class="btn-more">More Detail</a></span>
+									</span>
+                            <div class="property-thumb-info-content">
+                                <h2><a href="property-detail.html">Chatham St NW, Roanoke, VA 24012</a></h2>
+                                <p>Sed perspiciatis unde omnisiste natus error voluptatem remopa accusantium doloremque laudantium, totam rem aperiam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        @endforeach
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+            <div class="item" id="item2"><img src="images/slides/slider2.jpg" alt="Photo" class="img-responsive">
+                <div class="item-caption">
+                    <div class="container">
+                        <div class="property-info">
+									<span class="property-thumb-info-label">
+										<span class="label price">$358,000</span>
+										<span class="label"><a href="property-detail.html" class="btn-more">More Detail</a></span>
+									</span>
+                            <div class="property-thumb-info-content">
+                                <h2><a href="property-detail.html">Presidential Parcel Frames Command Views of Mt. Rushmore</a></h2>
+                                <p>Sed perspiciatis unde omnisiste natus error voluptatem remopa accusantium doloremque laudantium, totam rem aperiam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item" id="item3"><img src="images/slides/slider3.jpg" alt="Photo" class="img-responsive">
+                <div class="item-caption">
+                    <div class="container">
+                        <div class="property-info">
+									<span class="property-thumb-info-label">
+										<span class="label price">$358,000</span>
+										<span class="label"><a href="property-detail.html" class="btn-more">More Detail</a></span>
+									</span>
+                            <div class="property-thumb-info-content">
+                                <h2><a href="property-detail.html">Alpine Rd, Stockton, CA 95215</a></h2>
+                                <p>Sed perspiciatis unde omnisiste natus error voluptatem remopa accusantium doloremque laudantium, totam rem aperiam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Main Slide -->
