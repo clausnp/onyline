@@ -10,3 +10,15 @@
 h2{
     margin: 0 0 10px;
 }
+i.fa{
+    font-size: 16px;
+}
+a.link_preto{
+    color: #000;
+}
+a.link_preto:hover{
+    color: #C29466;
+}
+.property-thumb-info-content address{
+    color: #666;
+}

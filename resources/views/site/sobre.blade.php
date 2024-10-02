@@ -1,7 +1,7 @@
 @extends('layouts.site')
 
 @section('og_title')
-    <meta property="og:title" content="Contato - {{ config('app.site_title') }}">
+    <meta property="og:title" content="Sobre - {{ config('app.site_title') }}">
 @stop
 @section('og_url')
     <meta property="og:url" content="{{ Request::url() }}">
@@ -24,7 +24,6 @@
 @section('content')
     <section class="pgl-intro">
         <div class="container">
-            <h2>Welcome to RealEstast</h2>
             <div class="owl-carousel pgl-pro-slide pgl-img-slide" data-plugin-options='{"items": 1, "pagination": false, "autoHeight": true}'>
                 <div class="item-wrap">
                     <img src="images/sobre/slider1.jpg" alt="Photo" class="img-responsive">

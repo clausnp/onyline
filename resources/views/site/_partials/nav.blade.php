@@ -19,6 +19,7 @@
 
                     <li class="{{ request()->routeIs('inicial') ? 'active' : '' }}"><a href="{{ route('inicial') }}">INICIAL</a></li>
                     <li class="{{ request()->routeIs('sobre') ? 'active' : '' }}"><a href="{{ route('sobre') }}">SOBRE</a></li>
+                    <li class="{{ request()->routeIs('propriedades') ? 'active' : '' }}"><a href="{{ route('propriedades') }}">PROPRIEDADES</a></li>
                     <li class="{{ request()->routeIs('contato') ? 'active' : '' }}"><a href="{{ route('contato') }}">CONTATO</a></li>
 
                 </ul>

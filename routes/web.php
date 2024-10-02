@@ -12,6 +12,8 @@ use Illuminate\Support\Facades\Auth;
 
 Route::get('/', [SiteController::class, 'inicial'])->name('inicial');
 Route::get('/sobre', [SiteController::class, 'sobre'])->name('sobre');
+Route::get('/propriedades', [SiteController::class, 'propriedades'])->name('propriedades');
+Route::get('/propriedade_show', [SiteController::class, 'propriedade_show'])->name('propriedade_show');
 Route::get('/contato', [SiteController::class, 'contato'])->name('contato');
 Route::post('/contato', [SiteController::class, 'enviar_email'])->name('enviar_email');
 

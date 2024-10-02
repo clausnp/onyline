@@ -368,7 +368,7 @@ hr {
   display: -ms-flex;
   display: flex;
   font-weight: 700;
-  max-width: 500px;
+  /*max-width: 500px;*/
   position: relative;
   -ms-box-orient: horizontal;
   -ms-box-pack: center;

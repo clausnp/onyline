@@ -28,6 +28,16 @@ class SiteController extends Controller
 
     }
 
+    public function propriedades() {
+        return view('site.propriedades');
+
+    }
+
+    public function propriedade_show() {
+        return view('site.propriedade_show');
+
+    }
+
     public function enviar_email(Request $request) {
         $this->validate($request, [
             'g-recaptcha-response' => 'required',
