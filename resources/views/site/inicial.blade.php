@@ -546,15 +546,15 @@
                         <div class="row pgl-midnarrow-row">
                             <div class="col-xs-5">
                                 <div class="img-thumbnail-medium">
-                                    <img src="images/agents/temp-agent.png" class="img-responsive" alt="Foto Corretor TAL">
+                                    <img src="images/agents/temp-agent.png" class="img-responsive" alt="Foto Corretor Cléderson de Santi">
                                 </div>
                             </div>
                             <div class="col-xs-7">
                                 <div class="pgl-agent-info">
-                                    <h4><a href="agentprofile.html">Nome</a></h4>
-                                    <p>Sobre.</p>
+                                    <h4><a href="agentprofile.html">Cléderson de Santi</a></h4>
+                                    <p>FAZER PELO ADMIN.</p>
                                     <address>
-                                        <i class="fa fa-whatsapp"></i> <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5554996042244" target="_blank">(54) 99999-9999</a><br>
+                                        <i class="fa fa-whatsapp"></i> <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5554999750499" target="_blank">(54) 99975-0499</a><br>
                                         <i class="fa fa-envelope-o"></i> <a href="mailto:cledidesanti@onyline.com.br" target="_blank">cledidesanti@onyline.com.br</a>
                                     </address>
                                 </div>
@@ -567,15 +567,15 @@
                         <div class="row pgl-midnarrow-row">
                             <div class="col-xs-5">
                                 <div class="img-thumbnail-medium">
-                                    <img src="images/agents/temp-agent.png" class="img-responsive" alt="Foto Corretor TAL">
+                                    <img src="images/agents/temp-agent.png" class="img-responsive" alt="Foto Corretor Leandro A. Tessaro">
                                 </div>
                             </div>
                             <div class="col-xs-7">
                                 <div class="pgl-agent-info">
-                                    <h4><a href="agentprofile.html">Nome</a></h4>
-                                    <p>Sobre.</p>
+                                    <h4><a href="agentprofile.html">Leandro A. Tessaro</a></h4>
+                                    <p>FAZER PELO ADMIN.</p>
                                     <address>
-                                        <i class="fa fa-whatsapp"></i> <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5554996042244" target="_blank">(54) 99999-9999</a><br>
+                                        <i class="fa fa-whatsapp"></i> <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5554991768344" target="_blank">(54) 99176-8344</a><br>
                                         <i class="fa fa-envelope-o"></i> <a href="mailto:leandro@onyline.com.br" target="_blank">leandro@onyline.com.br</a>
                                     </address>
                                 </div>
