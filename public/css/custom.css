@@ -22,3 +22,16 @@ a.link_preto:hover{
 .property-thumb-info-content address{
     color: #666;
 }
+span.whats_inicial{
+    font-size: 0.8em;
+}
+.codigo{
+    color: #666;
+    font-size: 0.9em;
+}
+.fa-solid{
+    color: #666;
+    display: inline-block;
+    height: 17px;
+    width: 22px;
+}

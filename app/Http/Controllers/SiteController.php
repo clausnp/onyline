@@ -28,13 +28,13 @@ class SiteController extends Controller
 
     }
 
-    public function propriedades() {
-        return view('site.propriedades');
+    public function imoveis() {
+        return view('site.imoveis');
 
     }
 
-    public function propriedade_show() {
-        return view('site.propriedade_show');
+    public function imovel_show() {
+        return view('site.imovel_show');
 
     }
 

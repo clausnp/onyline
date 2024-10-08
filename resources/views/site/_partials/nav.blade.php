@@ -3,8 +3,8 @@
         <div class="container">
             {{--<p class="pull-left text-note hidden-xs"><i class="fa fa-phone"></i> Need Support? 1-800-666-8888</p>--}}
             <ul class="nav nav-pills nav-top navbar-right">
-                <li><a href="https://www.facebook.com/" title="Facebook Onyline" data-placement="bottom" data-toggle="tooltip" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://www.instagram.com/onylineimoveis/" target="_blank" title="Instagram Onyline" data-placement="bottom" data-toggle="tooltip" data-original-title="Instagram"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/onylinenp" title="Facebook Onyline" data-placement="bottom" data-toggle="tooltip" data-original-title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/onylineimoveis" target="_blank" title="Instagram Onyline" data-placement="bottom" data-toggle="tooltip" data-original-title="Instagram"><i class="fa fa-instagram"></i></a></li>
             </ul>
         </div>
     </div>
@@ -19,7 +19,7 @@
 
                     <li class="{{ request()->routeIs('inicial') ? 'active' : '' }}"><a href="{{ route('inicial') }}">INICIAL</a></li>
                     <li class="{{ request()->routeIs('sobre') ? 'active' : '' }}"><a href="{{ route('sobre') }}">SOBRE</a></li>
-                    <li class="{{ request()->routeIs('propriedades') ? 'active' : '' }}"><a href="{{ route('propriedades') }}">PROPRIEDADES</a></li>
+                    <li class="{{ request()->routeIs('imoveis') ? 'active' : '' }}"><a href="{{ route('imoveis') }}">IMÓVEIS</a></li>
                     <li class="{{ request()->routeIs('contato') ? 'active' : '' }}"><a href="{{ route('contato') }}">CONTATO</a></li>
 
                 </ul>

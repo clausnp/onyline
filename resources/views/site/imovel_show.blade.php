@@ -1,7 +1,7 @@
 @extends('layouts.site')
 
 @section('og_title')
-    <meta property="og:title" content="NOME DA PROPRIEDADE - {{ config('app.site_title') }}">
+    <meta property="og:title" content="NOME DO IMÓVEL - {{ config('app.site_title') }}">
 @stop
 @section('og_url')
     <meta property="og:url" content="{{ Request::url() }}">
@@ -14,11 +14,11 @@
 @stop
 
 @section('title')
-    NOME DA PROPRIEDADE - @parent
+    NOME DO IMÓVEL - @parent
 @stop
 
 @section('bread')
-    @include('site._partials.bread', ['pagina'=> "NOME DA PROPRIEDADE",'imagem'=> "bread_contato"])
+    @include('site._partials.bread', ['pagina'=> "NOME DO IMÓVEL",'imagem'=> "bread_contato"])
 @endsection
 
 @section('content')
@@ -84,13 +84,12 @@
                             <div class="col-sm-4">
                                 <ul class="list-unstyled amenities amenities-detail">
                                     <li><strong>Tipo:</strong> Apartment</li>
-                                    <li><strong>Área total:</strong> 450<sup>m2</sup></li>
-                                    <li><strong>Área privativa:</strong> 350<sup>m2</sup></li>
-                                    <li>
-                                        <address><i class="icons icon-location"></i> Cidade - UF</address>
-                                    </li>
-                                    <li><i class="icons icon-bedroom"></i> 3 Quartos</li>
-                                    <li><i class="icons icon-bathroom"></i> 2 Banheiros</li>
+                                    <li><strong><i class="fa fa-arrows"></i> total:</strong> 450<sup>m2</sup></li>
+                                    <li><strong><i class="fa fa-arrows"></i> privativa:</strong> 350<sup>m2</sup></li>
+                                    <li><address><i class="icons icon-location"></i> Cidade - UF</address></li>
+                                    <li><i class="fa-solid fa-car"></i> 4 Garagem(s)</li>
+                                    <li><i class="icons icon-bedroom"></i> 3 Quarto(s)</li>
+                                    <li><i class="icons icon-bathroom"></i> 2 Banheiro(s)</li>
                                 </ul>
                             </div>
                             <div class="col-sm-8">

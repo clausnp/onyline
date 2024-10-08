@@ -26,21 +26,33 @@
         <div class="container">
             <div class="owl-carousel pgl-pro-slide pgl-img-slide" data-plugin-options='{"items": 1, "pagination": false, "autoHeight": true}'>
                 <div class="item-wrap">
-                    <img src="images/sobre/slider1.jpg" alt="Photo" class="img-responsive">
-                    <div class="item-caption"><p>Frase 1.</p></div>
+                    <img src="images/sobre/slider1.jpg" alt="Foto Onyline Imóveis" class="img-responsive">
+                    <div class="item-caption"><p>Onyline Imóveis</p></div>
                 </div>
                 <div class="item-wrap">
-                    <img src="images/sobre/slider2.jpg" alt="Photo" class="img-responsive">
-                    <div class="item-caption"><p>Frase 2.</p></div>
+                    <img src="images/sobre/slider2.jpg" alt="Foto Onyline Imóveis" class="img-responsive">
+                    <div class="item-caption"><p>Onyline Imóveis</p></div>
                 </div>
                 <div class="item-wrap">
-                    <img src="images/sobre/slider3.jpg" alt="Photo" class="img-responsive">
-                    <div class="item-caption"><p>Frase 3.</p></div>
+                    <img src="images/sobre/slider3.jpg" alt="Foto Onyline Imóveis" class="img-responsive">
+                    <div class="item-caption"><p>Onyline Imóveis</p></div>
                 </div>
             </div>
             <div class="lead pgl-bg-light text-center">
-                <p>Sobre, hisória, etc</p>
+                <p>Imobiliária Tessaro e De Santi Imóveis "ONYLINE IMÓVEIS".</p>
+                <p>Localizada na cidade de Nova Prata - RS, na Serra Gaúcha tem como objetivo a venda de imóvel que você sonha e busca para você e sua família.</p>
+                <p>Proporcionamos para você cliente a escolha do seu imóvel preferido: apartamentos, casas, terrenos, terrenos em condomínio, áreas de terra, coberturas, pavilhões e salas comerciais.</p>
+                <p>Convidamos a todos vocês para conhecer nossa imobiliária e nossos corretores.</p>
+                <p>Sejam bem vindos!!</p>
             </div>
+
+
+
+
+
+
+
+
         </div>
     </section>
 

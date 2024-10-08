@@ -9,7 +9,8 @@
                     <address>
                         <i class="fa fa-map-marker"></i> <a href="https://maps.app.goo.gl/FJ3xs3D9qSxhrFg67" target="_blank">Av. Presidente Vargas 424, Nova Prata - RS</a><br>
                         <i class="fa fa-envelope-o"></i> E-mail: <a href="mailto:contato@onyline.com.br" target="_blank">contato@onyline.com.br</a><br>
-
+                        <i class="fa fa-clock-o"></i> Segunda à sexta | 08:30 às 11:45 | 13:30 às 18:00<br>
+                        <i class="fa fa-file"></i> CRECI ??<br>
                         <i class="fa fa-facebook footer_fa"></i> <a href="https://www.facebook.com/onylinenp" target="_blank">/onylinenp</a><br>
                         <i class="fa fa-instagram footer_fa"></i> <a href="https://www.instagram.com/onylineimoveis/" target="_blank">/onylineimoveis</a><br>
                     </address>
